@@ -5,7 +5,7 @@ using PS = StartProcess.Processor;
 using ProjectParser;
 
 var nugetToken = EnvironmentVariable("npi");
-var name = "DotNetUpdate";
+var name = "AbbyyPageCounter";
 
 var currentDir = new DirectoryInfo(".").FullName;
 var info = Parser.Parse($"src/{name}/{name}.csproj");
